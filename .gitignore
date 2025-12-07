@@ -1,0 +1,85 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Docker
+*.log
+
+# Database
+*.db
+*.sqlite3
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node.js (for frontend later)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.next/
+dist/
+out/
+
+# Frontend builds
+/build
+/static
+
+# Logs
+logs/
+*.log
+
+# Secrets
+*.env
+*.pem
+*.key
+
+# Temporary
+temp/
+tmp/
+
+# Coverage
+.coverage
+htmlcov/
+*.cover
+.hypothesis/
+
+# Jupyter
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# celery
+celerybeat-schedule
+
+# SageMath
+.sage
+
+# Environments
+.env
+.venv
+
+# mkdocs
+/site
+
+# mypy
+.mypy_cache/

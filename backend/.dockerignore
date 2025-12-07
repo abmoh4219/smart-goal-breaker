@@ -1,0 +1,36 @@
+# Python stuff
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual envs
+env/
+venv/
+.venv/
+
+# Editor / OS files
+*.swp
+.DS_Store
+.idea/
+.vscode/
+*.log
+
+# Git
+.git
+.gitignore
+
+# Local env / secrets
+.env
+*.env
+
+# Tests & local data (optional)
+tests/
+*.sqlite3
+
+# Node modules (if any, e.g., for frontend inside backend)
+node_modules/
+
+# Build artifacts
+dist/
+build/

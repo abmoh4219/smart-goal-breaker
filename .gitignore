@@ -1,16 +1,15 @@
+# Environment variables
+.env
+
 # Python
 __pycache__/
 *.py[cod]
 *$py.class
 *.so
 .Python
-.env
-.venv
-env/
 venv/
+env/
 ENV/
-env.bak/
-venv.bak/
 
 # Docker
 *.log
@@ -19,23 +18,31 @@ venv.bak/
 *.db
 *.sqlite3
 
+# Node
+node_modules/
+.next/
+out/
+build/
+dist/
+
 # IDE
 .vscode/
 .idea/
 *.swp
 *.swo
-*~
 
 # OS
 .DS_Store
 Thumbs.db
 
+# Local deployment docs (keep locally, don't push)
+RENDER_QUICKSTART.md
+DEPLOYMENT_CHECKLIST.md
+
 # Node.js (for frontend later)
-node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-.next/
 dist/
 out/
 

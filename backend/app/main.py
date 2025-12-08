@@ -1,10 +1,11 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware 
-from app.db.database import engine, Base
 from app.core.config import settings
 from app.api.v1.goal import router as goal_router
 
-Base.metadata.create_all(bind=engine)
+# Database tables are managed by Alembic migrations
+# Run: alembic upgrade head
+
 
 app = FastAPI(title=settings.PROJECT_NAME, version=settings.PROJECT_VERSION)
 

@@ -136,7 +136,7 @@ postgresql://goalbreaker_user:abc123xyz@dpg-abcd1234.oregon-postgres.render.com:
    - Status will change to **"Live"** with a green indicator
 
 4. **Get Your API URL**
-   - You'll receive a URL like: `https://smart-goal-breaker-api.onrender.com`
+   - You'll receive a URL like: `https://your-app-name.onrender.com`
    - This is your production API endpoint!
 
 ---
@@ -146,7 +146,7 @@ postgresql://goalbreaker_user:abc123xyz@dpg-abcd1234.oregon-postgres.render.com:
 ### Check Health Endpoint
 
 ```bash
-curl https://smart-goal-breaker-api.onrender.com/
+curl https://your-app-name.onrender.com/
 ```
 
 **Expected Response:**
@@ -159,7 +159,7 @@ curl https://smart-goal-breaker-api.onrender.com/
 ### Test Goal Creation
 
 ```bash
-curl -X POST https://smart-goal-breaker-api.onrender.com/api/v1/goals/ \
+curl -X POST https://your-app-name.onrender.com/api/v1/goals/ \
   -H "Content-Type: application/json" \
   -d '{
     "original_goal": "Deploy my app to production"

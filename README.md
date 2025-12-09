@@ -3,7 +3,6 @@
 [![Live Demo](https://img.shields.io/badge/demo-live-brightgreen)](https://smart-goal-breaker-phi.vercel.app/)
 [![Next.js](https://img.shields.io/badge/Next.js-16.0-black)](https://nextjs.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-Latest-009688)](https://fastapi.tiangolo.com/)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 > Transform vague goals into actionable steps using AI-powered intelligence
 
@@ -322,7 +321,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## 📝 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License.
 
 ## 👤 Author
 

@@ -1,6 +1,6 @@
 # 🎯 Smart Goal Breaker
 
-[![Live Demo](https://img.shields.io/badge/demo-live-brightgreen)](http://localhost:3000)
+[![Live Demo](https://img.shields.io/badge/demo-live-brightgreen)](https://smart-goal-breaker-phi.vercel.app/)
 [![Next.js](https://img.shields.io/badge/Next.js-16.0-black)](https://nextjs.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-Latest-009688)](https://fastapi.tiangolo.com/)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
